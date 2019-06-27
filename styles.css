@@ -1,0 +1,77 @@
+
+
+h1 {
+    font-family: "Lucida Bright", serif;
+    font-variant: small-caps;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    border: 0.25rem outset rgb(241, 205, 252);
+    background: rgba(160, 160, 160, 0.4);
+    width: 330px;
+}
+
+.card {
+    border: 3px solid rgba(70, 70, 138);
+    background-color: rgba(68, 0, 255, 0.425);
+    border-radius: 12px;
+    background-image: url("./background.png");
+    background-position: bottom right;
+    margin: 5% auto;
+    padding: 0.5% 2.5% 2% 2%;
+    width: 330px;
+}
+
+
+li {
+    list-style: none;
+    font: 13px "Book Antiqua", serif;
+    text-align: justify;
+}
+
+span {
+    font: 15px "Book Antiqua", serif;
+    font-weight: bold;
+}
+
+div.pegasus {
+    border: 5px solid rgb(81, 58, 114);
+    height: 365px;
+    width: 300px;
+    background-image: url('./pegasus.PNG');
+    background-size: cover;
+    padding-left: 27px;
+
+}
+
+/* Special effects on hover */
+div.pegasus:hover {
+    border: 5px solid rgb(81, 58, 114);
+    height: 365px;
+    width: 300px;
+    background-image: url('./pegasus.gif');
+    background-size: cover;
+    padding-left: 27px;
+}
+
+p {
+    font: italic 10pt "Fira Sans", serif;
+    color: lavender;
+    text-align: justify; 
+    padding: 5px;
+    margin: 5px
+}
+
+.information {
+    border: 0.20rem outset rgb(150, 118, 160);
+    width: 330px;
+    background: rgb(101, 102, 170,0.90);
+    color: navajowhite;
+    
+}
+
+#description {
+    font: normal 10pt "Fira Sans", serif;
+    color: lavender;
+    text-align: justify;
+}
